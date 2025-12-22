@@ -5,7 +5,7 @@ pipeline {
         NODE_ENV        = 'development'
         JWT_SECRET      = 'supersecret'
         JWT_EXPIRES_IN  = '1h'
-        VALID_PROJECTS  = 'projectA,projectB,projectC'
+        VALID_PROJECTS  = 'duragas'
         PORT            = '3000'
         CORS_WHITELIST  = ''
         NVM_DIR         = '/opt/nvm'

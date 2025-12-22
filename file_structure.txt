@@ -1,0 +1,23 @@
+├── config
+│   ├── cors.ts
+│   └── swagger.config.ts
+├── controllers
+│   └── auth.controller.ts
+├── dto
+│   ├── refresh-token-request.dto.ts
+│   ├── token-request.dto.ts
+│   ├── validate-request.dto.ts
+│   └── validate-token-request.dto.ts
+├── index.ts
+├── middlewares
+│   ├── validateRequest.ts
+│   └── validateToken.ts
+├── routes
+│   └── auth.routes.ts
+├── services
+│   └── jwt.service.ts
+├── types
+│   └── auth.interface.ts
+└── utils
+    ├── projectValidator.ts
+    └── response.helper.ts

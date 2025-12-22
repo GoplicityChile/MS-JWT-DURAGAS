@@ -7,7 +7,7 @@ pipeline {
         JWT_EXPIRES_IN  = '1h'
         VALID_PROJECTS  = 'duragas'
         PORT            = '3000'
-        CORS_WHITELIST  = ''
+        CORS_WHITELIST  = 'http://localhost:3000,http://localhost:3002,http://localhost:8080'
         NVM_DIR         = '/opt/nvm'
         SONAR_TOKEN     = credentials('SONAR_TOKEN')
     }
